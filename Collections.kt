@@ -10,3 +10,11 @@ fun main() {
     val isSupported = requested.uppercase() in SUPPORTED
     println("Support for $requested: $isSupported")
 }
+
+fun main() {
+    val number2word = mapOf(1 to "one", 2 to "two", 3 to "three")
+    val n = 2
+    println("$n is spelt as '${number2word[n]}'")
+}
+
+// Aqui aprendimos acerca de las listas, conjuntos y mapas, aprendimos a hacer consultas para imprimir los elementos y modificar listas agregando más elementos
